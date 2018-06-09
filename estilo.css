@@ -1,0 +1,29 @@
+@charset "UTF-8";
+body {
+    display: block;
+    margin: 0px;
+    height: 100%;
+  }
+header{
+    margin: 0px;
+    height: 150px;
+    box-sizing: border-box;
+    background-color: #221F20;
+}
+nav {
+    display: block;
+    text-align: center;
+    padding-top: 14px;
+}
+.menu{
+    background-color: #221F20;
+    padding: 9px;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+}
+.menu:hover, .menu:active{
+    background-color: #ffffff;
+    color: #000000;
+}
